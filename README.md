@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Upcomming Features:
+-  Implement Search
+    - using prompt
+    - using tag
+    - using username
+-  Tag click and search
+-  Profile view with prompts
+
+
 ## Getting Started
 
 First, run the development server:
