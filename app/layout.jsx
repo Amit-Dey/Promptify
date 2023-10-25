@@ -5,7 +5,7 @@ import Provider from "@components/Provider";
 import Main from "@components/Main";
 
 export const metadata = {
-    title: "Promptopia",
+    title: "Promptify",
     description: "Discover & Share AI Prompts",
 };
 
