@@ -41,7 +41,7 @@ To learn more about Next.js, take a look at the following resources:
 ## Deployment
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js. For more details on deployment, refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
 
-The project is live and can be accessed [here](https://promptify-qer3q5fhg-amit-deys-projects.vercel.app/).
+The project is live and can be accessed [here](https://promptify-8euw696nq-amit-deys-projects.vercel.app/).
 
 
 ## Contributing
