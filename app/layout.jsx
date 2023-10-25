@@ -11,7 +11,10 @@ export const metadata = {
 
 const RootLayout = ({ children }) => (
     <html lang='en' className="">
-        <body>
+        <head>
+        <link rel="icon" href="/assets/images/logo.svg" sizes="any" />
+        </head>
+        <body suppressHydrationWarning={true}>
             <Provider>
                 <Main />
                 <main className='app'>

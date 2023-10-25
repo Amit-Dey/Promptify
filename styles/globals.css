@@ -9,7 +9,7 @@
     --color-primary: #E5BA73;
     --color-secondary: #C58940;
     --color-heading: #ED7D31;
-    --color-text: #FAF8F1;
+    --color-text: rgb(45, 246, 253);
     --color-background: #090909;
 
     font-size: 62.5%;
@@ -39,7 +39,7 @@
   justify-content: center;
   /* padding: 120px 24px 160px 24px; */
   /* pointer-events: none; */
-  background: var(--color-text);
+  background: linear-gradient(to bottom, #fdb99e, #ff9f7c);
 }
 
 
@@ -53,7 +53,7 @@
 /* Tailwind Styles */
 
 .nav_link {
-  @apply  hidden  text-2xl font-inter font-semibold hover:text-gray-200 text-center md:flex items-center justify-center; 
+  @apply  hidden  text-2xl font-inter font-semibold hover:text-[var(--color-heading)] text-center md:flex items-center justify-center; 
 }
 
 .app {
@@ -89,7 +89,7 @@
 }
 
 .search_input {
-  @apply block w-full rounded-md border  md:h-16 border-gray-200 bg-white py-2.5 font-satoshi pl-5 pr-12 text-sm shadow-lg font-medium focus:border-black focus:outline-none focus:ring-0;
+  @apply block w-full rounded-md border  md:h-16 border-gray-200 bg-white py-2.5 font-satoshi pl-5 pr-12 text-xl shadow-lg font-medium focus:border-black/50 focus:outline-none focus:ring-0;
 
 }
 
@@ -121,11 +121,11 @@
 
 /* Nav Component */
 .logo_text {
-  @apply max-sm:hidden  ml-2 font-satoshi text-2xl font-bold text-black tracking-wide;
+  @apply   ml-2 font-satoshi text-2xl md:text-3xl font-bold text-black  hover:text-[var(--color-heading)] tracking-wide;
 }
 
 .dropdown {
-  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[210px] flex flex-col gap-2 justify-end items-end;
+  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white/30 min-w-[210px] flex flex-col gap-2 justify-end items-end;
 }
 
 .dropdown_link {

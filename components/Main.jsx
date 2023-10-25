@@ -27,7 +27,7 @@ const Main = () => {
     return (
         <section
             ref={targetRef}
-            className="main before:pointer-events-none before:fixed before:inset-0 before:z-0 before:bg-[radial-gradient(circle_farthest-side_at_var(--x,_100px)_var(--y,_100px),_var(--color-secondary)_0%,_transparent_100%)] before:opacity-50"
+            className="main before:pointer-events-none before:fixed before:inset-0 before:z-0 before:bg-[radial-gradient(circle_farthest-side_at_var(--x,_100px)_var(--y,_100px),_var(--color-text)_0%,_transparent_100%)] before:opacity-50"
         >
         </section>
     )
