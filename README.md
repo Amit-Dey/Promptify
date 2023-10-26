@@ -3,6 +3,8 @@
 Promptify is a web application built with Next.js that generates creative prompts for various purposes such as creative writing, brainstorming, and idea generation. It leverages AI to provide users with diverse and tailored prompts, catering to a wide range of interests and preferences.
 
 
+![Promptify](https://github.com/Amit-Dey/Promptify/assets/64111533/d4d8b099-0d9f-472c-a2f6-437d0aa067f3)
+
 ## Table of Contents
 - [Promptify](#promptify)
   - [Table of Contents](#table-of-contents)
