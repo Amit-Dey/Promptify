@@ -45,7 +45,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 The project is live and can be accessed [here](https://promptify-six-dun.vercel.app/).
 
-
 ## Contributing
 We welcome contributions from the community. Please check out the [contribution guidelines](CONTRIBUTING.md) for more information on how to get involved.
 ****
